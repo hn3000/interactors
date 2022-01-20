@@ -1,0 +1,25 @@
+{
+  "name": "interactors",
+  "version": "0.1.0",
+  "description": "binding for event handler bundlers, so that behaviors can be encapsulated",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "pretest": "tsc",
+    "test": "node runtest.js"
+  },
+  "index": "out/src/interactors.js",
+  "keywords": [
+    "ui",
+    "event",
+    "bundling"
+  ],
+  "author": "Harald Niesche",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+  }
+}

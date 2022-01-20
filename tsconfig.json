@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig#",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "outDir": "out"
+  },
+  "files": [
+    "src/interactors.ts",
+    "test/allTests.ts"
+  ]
+}
